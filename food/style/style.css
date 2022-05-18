@@ -1,0 +1,149 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > .logo > img {
+    max-width: 150px;
+}
+
+header > nav > .list-menu {
+    display: flex;
+}
+
+header > nav > .list-menu li {
+    margin: 0 15px;
+    padding: 20px 0;
+    list-style: none;
+    position: relative;
+}
+
+header > nav > .list-menu li:hover:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+}
+
+header > nav > .list-menu li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > nav > .list-menu li > .btn-login {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #004BB1;
+    font-weight: normal;
+    border-radius: 20px;
+}
+
+.banner {
+    margin-top: 28px;
+    position: relative;
+}
+
+.banner-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner > img {
+    width: 100%;
+    height: 50vh;
+}
+
+.langding-page {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.langding-page-left ul li {
+    line-height: 30px;
+}
+
+.langding-page-left ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.langding-page-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.langding-page-right div img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(219, 199, 199);
+    margin-top: 28px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list > ul > li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.footer-list > ul > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+
+.footer-list > div {
+    font-size: 24px;
+}
+
+.langding-page-contact p {
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.5;
+    font: 24px;
+}
+
+.langding-page-contact div {
+    font-style: italic;
+    font-weight: bold;
+    font: 24px;
+}
+
+.langding-page-introduce p {
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.5;
+    font: 24px;
+}
+
+.langding-page-introduce > form > div > input , textarea {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.langding-page-introduce > form > div > input {
+    height: 30px;
+}
