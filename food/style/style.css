@@ -61,6 +61,10 @@ header > nav > .list-menu li > .btn-login {
     transform: translate(-50%,-50%);
 }
 
+.banner-list h1 {
+    color: #fff;
+}
+
 .banner > img {
     width: 100%;
     height: 50vh;
@@ -70,6 +74,7 @@ header > nav > .list-menu li > .btn-login {
     margin-top: 28px;
     display: grid;
     grid-template-columns: 30% 70%;
+    align-items: flex-start;
 }
 
 .langding-page-left ul li {
@@ -77,10 +82,10 @@ header > nav > .list-menu li > .btn-login {
 }
 
 .langding-page-left ul li a {
-    color: #000;
+    color: rgb(85, 83, 83);
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .langding-page-right {
@@ -146,4 +151,63 @@ footer {
 
 .langding-page-introduce > form > div > input {
     height: 30px;
+}
+
+.langding-page-subtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.img-banner {
+    height: 50vh;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.form-introduce {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+.langding-page-bot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.list-lang {
+    position: relative;
+}
+
+.list-lang-lost {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: #fff;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px 5px;
+}
+
+.lang-list-money {
+    display: flex;
+}
+
+.lang-list-money span , p {
+    margin: 0 5px;
+}
+
+.lang-list-money span  {
+    font-size: 12px;
 }

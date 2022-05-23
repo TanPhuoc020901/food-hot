@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/owl.carousel.css">
+    <link rel="stylesheet" href="./style/owl.theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/pluss.js"></script>
 </head>
 <body>
     <header>
@@ -32,52 +38,72 @@
     </header>
 
     <section class="banner container">
-        <img src="image/H366.jpeg" alt="">
-        <div class="banner-list">
-            <h1> Chữ Hán:飲食, ẩm nghĩa là uống </h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="img-banner" src="image/1.jpeg" alt="">
+                <div class="banner-list">
+                    <h1> Giảm giá (50%) tất cả mặt hàng</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-banner" src="image/2.webp" alt="">
+                <div class="banner-list">
+                    <h1> Giảm giá (50%) tất cả mặt hàng</h1>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-banner" src="image/3.jpeg" alt="">
+                <div class="banner-list">
+                    <h1> Giảm giá (50%) tất cả mặt hàng</h1>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="langding-page container">
         <div class="langding-page-left">
+            <div class="langding-page-subtitle">Thực Đơn</div>
             <ul>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Bò nướng(1)</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Yến Sào(2)</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Cơm cuộn(3)</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Bò nướng(1)</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Yến Sào(2)</a>
+                </li>
+                <li>
+                    <a href="">Cơm cuộn(3)</a>
                 </li>
             </ul>
         </div>
         <div  class="langding-page-right">
             <div>
                 <img src="image/food.jpeg" alt="">
-                <p>Ẩm thực</p>
+                <p>Bò nướng(1)</p>
             </div>
             <div>
                 <img src="image/food.jpeg" alt="">
-                <p>Ẩm thực</p>
+                <p>Bò nướng(1)</p>
             </div>
             <div>
                 <img src="image/food.jpeg" alt="">
-                <p>Ẩm thực</p>
+                <p>Bò nướng(1)</p>
             </div>
             <div>
                 <img src="image/food.jpeg" alt="">
-                <p>Ẩm thực</p>
+                <p>Bò nướng(1)</p>
             </div>
             <div>
                 <img src="image/food.jpeg" alt="">
-                <p>Ẩm thực</p>
+                <p>Bò nướng(1)</p>
             </div>
             <div>
                 <img src="image/food.jpeg" alt="">
@@ -86,29 +112,174 @@
         </div>
     </section>
 
+    <section class="container">
+        <h5 class="langding-page-subtitle">Giá ẩm thực</h5>
+        <div class="langding-page-bot">
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+            <div class="list-lang">
+                <img  src="image/food.jpeg" alt="">
+                <p>Ẩm thực</p>
+                <div class="lang-list-money">
+                    <p>300 $</p>
+                    <span>- 100 $</span>
+                </div>
+                <div class="list-lang-lost">
+                    30%
+                </div>
+            </div>
+        </div>
+    </section>
+       
     <footer>
-        <h1>Thực Đơn</h1>
         <div class="footer-list container">
             <ul>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Thông Tin</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Về chúng tôi</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">WWW.sinhvien.hueic.edu.vn</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">Trang liên hệ</a>
                 </li>
                 <li>
-                    <a href="">Ẩm thực</a>
-                </li>
-                <li>
-                    <a href="">Ẩm thực</a>
+                    <a href="">WWW.sinhvien.hueic.edu.vn</a>
                 </li>
             </ul>
             <div>
@@ -118,7 +289,5 @@
             </div>
         </div>
     </footer>
-    
-
 </body>
 </html>
