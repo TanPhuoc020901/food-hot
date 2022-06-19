@@ -1,5 +1,5 @@
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -10,7 +10,7 @@ header > nav {
 }
 
 header > nav > .logo > img {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 header > nav > .list-menu {
@@ -40,13 +40,14 @@ header > nav > .list-menu li a {
     font-weight: bold;
 }
 
-header > nav > .list-menu li > .btn-login {
+.btn-login {
     color: #fff;
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 6px 30px;
     background-color: #004BB1;
     font-weight: normal;
     border-radius: 20px;
+    border: none;
 }
 
 .banner {
@@ -62,7 +63,7 @@ header > nav > .list-menu li > .btn-login {
 }
 
 .banner-list h1 {
-    color: #fff;
+    color: #000;
 }
 
 .banner > img {
@@ -78,7 +79,7 @@ header > nav > .list-menu li > .btn-login {
 }
 
 .langding-page-left ul li {
-    line-height: 30px;
+    line-height: 50px;
 }
 
 .langding-page-left ul li a {
@@ -90,16 +91,24 @@ header > nav > .list-menu li > .btn-login {
 
 .langding-page-right {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+}
+
+.langding-page-right div {
+    text-align: center;
 }
 
 .langding-page-right div img {
     width: 100%;
 }
 
+.langding-page-right button {
+    margin-top: 15px;
+}
+
 footer {
-    background-color: rgb(219, 199, 199);
+    background-color: rgb(154, 153, 153);
     margin-top: 28px;
 }
 
@@ -159,7 +168,7 @@ footer {
 }
 
 .img-banner {
-    height: 50vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -180,6 +189,18 @@ input {
     grid-gap: 10px;
 }
 
+.langding-page-bot div {
+    text-align: center;
+}
+
+.langding-page-bot input {
+    margin-bottom: 15px;
+} 
+
+.list-lang img {
+    height: 50vh;
+}
+
 img {
     width: 100%;
 }
@@ -190,7 +211,7 @@ img {
 
 .list-lang-lost {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,50%);
     color: #fff;
@@ -202,14 +223,60 @@ img {
 
 .lang-list-money {
     display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .lang-list-money span , p {
     margin: 0 5px;
 }
 
-.lang-list-money span  {
-    font-size: 12px;
+
+.lang-list-money p {
+    color: #000;
 }
 
+.lang-list-money span  {
+    font-size: 12px;
+    color: red;
+}
+
+.list-icon > i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.item > .banner-list > h1, p {
+    color: #fff;
+}
+
+
+.item > .banner-list > h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item > .banner-list > button {
+    margin-top: 10px;
+}
+
+.amount-buton {
+    width: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
 /* style */
